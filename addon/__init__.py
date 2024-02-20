@@ -23,7 +23,7 @@ mods = []
 
 
 def register():
-    ensure_dependencies(bl_info)
+    ensure_dependencies()
     # Import local modules here, e.g.:
     #
     # import .utils
